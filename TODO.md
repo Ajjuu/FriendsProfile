@@ -4,6 +4,12 @@
 
 2.Node Server Setup(DONE)
 
-3.Client Basic Setup : SignIn/SignUP Page
+3.Client Basic Setup : SignIn/SignUP Page(DONE)
 
-4.HomePage
+4.HomePage(DONE)
+
+5.HomePage with required fields.
+
+
+
+
