@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Login and registration form design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Header Page code -->
+<div>
+<header>
+
+     <span>FriendsProfile.com</span>
+     <form id = "admin">
+      <table>
+       <tr>
+        <td style="color:gray">Username</td>
+        <td style="color:gray">Password</td>
+       </tr>
+       <tr>
+        <td><input type ="text" placeholder="Username"></td>
+        <td><input type ="password" placeholder="Password"></td>
+        <td><input type ="submit" Value="Login"></td>
+        
+       </tr>
+       <tr>
+       
+       <td><a href="#" class="class1">Forgot Password?</a></td>
+      
+
+      </tr>
+      </table>
+      </form>
+   </header>
+ </div>
+
+<!-- Header Page code -->
+
+
+
+
+<!-- Login Page code -->
+ <div class="login-page">
+ <div class="userform">
+
+     <form class="register-form">
+     <img src="images/signup1.png" class="signup">
+
+
+     <input type="text" placeholder="firstname"/>
+     <input type="text" placeholder="lastname"/>
+     <input type="text" placeholder="username"/>
+     <input type="text" placeholder="password"/>
+     <input type="text" placeholder="email id"/>
+     
+     <input class= "choice" type="radio" name="gender" value="male">Male
+     <input class= "choice" type="radio" name="gender" value="female">Female
+     <input class= "choice" type="radio" name="gender" value="other">Other
+     
+     <button>Create Account</button>
+     <p class="message">Already registered? <a href="#">Login</a>
+     </p>
+     </form>
+
+     <form class="login-form">
+     <img src="images/logo.jpg" class="logo">
+     <input type="text" placeholder="username"/>
+     <input type="text" placeholder="password"/>
+     <button>Login</button>
+     <p class="message">Not Registered? <a href="#">Register</a>
+     </p>
+     <p style="text-align:center;"><a href="#">Forgot Password?</a>
+     </p>
+     </form>
+
+     <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+     <script>
+     $('.message a').click(function(){
+     	$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+     });
+     </script>
+ </div>
+ </div>
+
+<!-- Login Page code -->
+
+
+ </body>
+</html>
